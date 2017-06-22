@@ -44,7 +44,7 @@ module.exports = {
     showWindowControls: '',
 
     // custom padding (css format, i.e.: `top right bottom left`)
-    padding: '12px 14px',
+    padding: '10px 20px',
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
@@ -71,11 +71,11 @@ module.exports = {
     MaterialTheme: {
       // Set the theme variant, 
       // OPTIONS: 'Darker', 'Palenight', '' 
-      theme: '',
+      theme: 'Darker',
 
       // Set the rgba() app background opacity, useful when enableVibrance is true 
       // OPTIONS: From 0.1 to 1 
-      backgroundOpacity: '.9',
+      backgroundOpacity: '.8',
 
       // Set the accent color for the current active tab 
       accentColor: '#64FFDA',
