@@ -23,10 +23,10 @@ module.exports = {
     foregroundColor: '#fff',
 
     // terminal background color
-    backgroundColor: '#000',
+    backgroundColor: '#333',
 
     // border color (window, tabs)
-    borderColor: '#333',
+    borderColor: '#555',
 
     // custom css to embed in the main window
     css: '',
@@ -36,7 +36,7 @@ module.exports = {
 
     // set to `true` (without backticks) if you're using a Linux setup that doesn't show native menus
     // default: `false` on Linux, `true` on Windows (ignored on macOS)
-    showHamburgerMenu: 'true',
+    showHamburgerMenu: true,
 
     // set to `false` if you want to hide the minimize, maximize and close buttons
     // additionally, set to `'left'` if you want them on the left, like in Ubuntu
