@@ -7,7 +7,7 @@ module.exports = {
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
     updateChannel: 'canary',
-    
+
     // default font size in pixels for all tabs
     fontSize: 12,
 
@@ -28,7 +28,7 @@ module.exports = {
 
     // terminal background color
     backgroundColor: '#333',
-    
+
     // terminal selection color
     selectionColor: 'rgba(248,28,229,0.3)',
 
@@ -130,19 +130,17 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    //'hyperpower', 
-    //'hpm-cli', 
+    //'hyperpower',
     'hyper-material-theme',
-    'hyperline', 
-    'hyperterm-tab-icons', 
-    'hyperterm-alternatescroll'
+    'hyperline',
+    'hyper-tab-icons'
   ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
-  localPlugins: [], 
-  
+  localPlugins: [],
+
   keymaps: {
     // Example
     // 'window:devtools': 'cmd+alt+o',
