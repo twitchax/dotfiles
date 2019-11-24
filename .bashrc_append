@@ -1,0 +1,9 @@
+
+
+function _update_ps1() {
+    PS1="$($HOME/go/bin/powerline-go -error $? -cwd-mode dironly -theme $HOME/powerline-go-theme.json -modules exit,user,cwd,git)"
+}
+
+if [ "$TERM" != "linux" ] && [ -f "$HOME/go/bin/powerline-go" ]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
